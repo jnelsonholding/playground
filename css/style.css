@@ -1,0 +1,25 @@
+nav > h1 {
+    text-align: center;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.mid {
+    border-color: forestgreen;
+    border-style: solid;
+    height: auto;
+    width: 100%;
+}
+
+.box {
+    float: left;
+    width: 49%;
+    height: 100px;
+    border-style: solid;
+    border-color: deeppink;
+}
