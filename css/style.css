@@ -6,6 +6,24 @@ li {
     display: inline;
 }
 
+.top {
+    height: 200px;
+    border-color: green;
+    border-style: dashed;
+    width: 100%;
+    display: inline-block;
+}
+
+.top > img {
+    /* display: inline-block; */
+    max-width: 33%;
+    max-height: 100%;
+}
+
+/* .top > p {
+    display: inline-block;
+} */
+
 .mid {
     border-color: forestgreen;
     border-style: solid;
@@ -16,7 +34,7 @@ li {
 .box {
     display: inline-block;
     width: 45%;
-    height: 100px;
+    height: 150px;
     border-style: solid;
     border-color: deeppink;
     text-align: center;
